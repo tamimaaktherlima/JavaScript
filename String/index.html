@@ -21,8 +21,18 @@
         var number = num + num1;
         document.write("num " + num + " and num1 " + num1 + "</br>");
 
-        var text = prompt("Enter your name : ");
-        document.write(text.length);
+        //var text = prompt("Enter your name : ");
+        //document.write(text.length);
+        
+        var text = "Bangladesh"
+        document.write(text.length +"</br>");
+        document.write(text+" length / number of character is: "+text.length + "</br>");
+        document.write(text.charAt(3) + "</br>"); // print INDEX number
+        document.write(text.toUpperCase() + "</br>"); // print the text in Upper Case.
+        document.write(text.toLowerCase() + "</br>"); // print the text in Lower Case.
+        var text1 = "My Motherland is ";
+        document.write(text1.concat(text) + "</br>");
+        document.write(text.slice(0,5)); // print index 0 to 5
     </script>
     <!-- <script src="index.js"></script> -->
 </body>
