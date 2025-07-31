@@ -1,0 +1,36 @@
+.para-style{
+    margin-top: 25px;
+    display: inline;
+    border: 2px solid #312f2f;
+    /* display: inline block; */
+    padding: 5px;
+    background-color: burlywood;
+    color: #3c3cff;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+
+}
+#keys{
+    margin-top: 25px;
+}
+
+#keys button{
+    margin :0;
+    padding: 5px;
+    gap: 7px;
+    background-color: rgb(135, 135,60);
+    color: blanchedalmond;
+    border: 1px solid black;
+    outline-width: 10%;
+    border-radius: 5%;
+    font-size: 13px;
+    font-weight: bold;
+}
+#keys button:hover{
+    background-color: rgb(255,255,30);
+    color: black;
+}
+#keys button:active{
+    background-color: rgb(208, 201, 137);
+}
