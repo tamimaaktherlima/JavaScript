@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript Event</title>
+</head>
+<body>
+    <!-- input -->
+    <label for="name">Name:
+        <input type="text" name="username" class="nameInputClass" id="nameInputID">
+    </label>
+
+    <!-- checkbox -->
+    <div>
+        <h2>Programming Languages</h2>
+        <label for="program">
+            <input type="checkbox" name="program" id="" value="c">C
+        </label>
+        <label for="program">
+            <input type="checkbox" name="program" id="" value="java">Java
+        </label>
+    </div>
+
+    <!-- password -->
+    <label for="program">
+        <input type="password" name="program" id="myPassword" value="userpass">Password
+    </label>
+    <br>
+
+    <!-- Radio -->
+    <div>
+        <label for="html">
+            <input type="radio" name="radioGroup" id="html" value="HTML">HTML
+        </label>
+        <label for="css">
+            <input type="radio" name="radioGroup" id="css" value="CSS">CSS
+        </label>
+        <label for="js">
+            <input type="radio" name="radioGroup" id="js" value="js">JavaScript
+        </label>
+    </div>
+    <br>
+
+    <!-- Search -->
+    <label for="search">
+        <input type="search" name="search" id="search" value="Google" >Search
+    </label>
+    <br>
+    <br>
+
+    <!-- Select -->
+     <label for="department">Department: </label>
+     <select name="department" id="department">
+        <option value="cse">CSE</option>
+        <option value="swe">SWE</option>
+        <option value="eee">EEE</option>
+        <option value="llb">LLB</option>
+     </select>
+
+    <script src="./onChange.js"></script>
+</body>
+</html>
