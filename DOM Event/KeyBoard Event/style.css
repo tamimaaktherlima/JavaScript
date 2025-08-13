@@ -1,0 +1,9 @@
+textarea{
+    width: 25rem;
+    height: 15rem;
+    /* text-align: center;
+    align-content: center; */
+    background-color: #5c8f1c;
+    font-weight:bold;
+    font-size: 1.5rem;
+}
